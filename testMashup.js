@@ -53,7 +53,7 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp( '848fe989-2167-4ce5-b6ed-dff7ff039476', config );
 	
     //get objects -- inserted here --
-	app.visualization.get('objectid').then(function(vis){
+	app.visualization.get('KgjnT').then(function(vis){
     vis.show("QV01");	
 	} );
     
