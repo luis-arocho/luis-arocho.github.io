@@ -59,7 +59,7 @@ login().then(() => { //END OF REDIRECT LOG IN CODE
 		//callbacks -- inserted here --
 		//open apps -- inserted here --
 		
-		app = qlik.openApp('d8f41911-1d3e-4f3b-9aea-0071c59f0d10', config); //'Mashup Exporting via Qlik API'
+		app = qlik.openApp('8ae6d9ba-19cc-47ce-8860-e3b6e13ee123', config); //'Mashup Exporting via Qlik API'
 		app.getObject('simple_table','arrXTE');		
 		app.getObject('bar_chart','MXAQHeM');
 		app.getObject('pie_chart','hVKPhn');
