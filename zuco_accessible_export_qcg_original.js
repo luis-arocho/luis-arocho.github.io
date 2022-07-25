@@ -69,7 +69,7 @@ login().then(() => { //END OF REDIRECT LOG IN CODE
 		app.visualization.get('arrXTE').then(function(vis){
     vis.show("QV01");	
 	} );
-		
+	} );});	
 		
 		//APPLY COLOR BREWER THEME
 		//qlik.theme.apply('theme-colorbrewer');
