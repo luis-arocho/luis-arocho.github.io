@@ -63,7 +63,7 @@ login().then(() => { //END OF REDIRECT LOG IN CODE
 		app.getObject('simple_table','arrXTE');		
 		app.getObject('bar_chart','MXAQHeM');
 		app.getObject('pie_chart','hVKPhn');
-		app.getObject('vizlib_container','ftTsz');
+		//app.getObject('vizlib_container','ftTsz');
 		app.getObject('CurrentSelections','CurrentSelections');
 		
 		//APPLY COLOR BREWER THEME
