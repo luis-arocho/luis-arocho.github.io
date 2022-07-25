@@ -5,17 +5,17 @@
 /*
  *    Fill in host and port for Qlik engine
  */
-//var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
+var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
 var config = {
-	//host: window.location.hostname,
-	//prefix: prefix,	
-	//port: window.location.port,	
-	//isSecure: window.location.protocol === "https:"	
-	host: '',//removed
-	prefix: '/',
-	port: 443,
-	isSecure: true,
-	webIntegrationId: '' //removed
+	host: 'e7ixql68q51ilev.us.qlikcloud.com',
+	prefix: '/',	
+	port: 443,	
+	isSecure: window.location.protocol === "https:"	
+	// host: '',//removed
+	// prefix: '/',
+	// port: 443,
+	// isSecure: true,
+	webIntegrationId: 'xV3eqA-sz5oEoQbji7YJw1JCQ0nzqvLj' 
 };
 
 //Redirect to login if user is not logged in -- AZUCO NOTE --> HOPING THIS IS ONLY NEEDED RIGHT NOW BECAUSE IDP IS NOT CONFIGURED
