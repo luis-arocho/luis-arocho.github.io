@@ -11,11 +11,11 @@ var config = {
 	//prefix: prefix,	
 	//port: window.location.port,	
 	//isSecure: window.location.protocol === "https:"	
-	host: '',//removed
+	host: 'e7ixql68q51ilev.us.qlikcloud.com',
 	prefix: '/',
 	port: 443,
-	isSecure: true,
-	webIntegrationId: '' //removed
+	isSecure: window.location.protocol === "https:"
+	webIntegrationId: 'xV3eqA-sz5oEoQbji7YJw1JCQ0nzqvLj' 
 };
 
 //Redirect to login if user is not logged in -- AZUCO NOTE --> HOPING THIS IS ONLY NEEDED RIGHT NOW BECAUSE IDP IS NOT CONFIGURED
@@ -63,7 +63,7 @@ login().then(() => { //END OF REDIRECT LOG IN CODE
 		app.getObject('simple_table','arrXTE');		
 		app.getObject('bar_chart','MXAQHeM');
 		app.getObject('pie_chart','hVKPhn');
-		app.getObject('vizlib_container','ftTsz');
+		// app.getObject('vizlib_container','ftTsz');
 		app.getObject('CurrentSelections','CurrentSelections');
 		
 		//APPLY COLOR BREWER THEME
