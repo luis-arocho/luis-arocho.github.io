@@ -61,7 +61,7 @@ login().then(() => { //END OF REDIRECT LOG IN CODE
 		
 		var app = qlik.openApp('8ae6d9ba-19cc-47ce-8860-e3b6e13ee123', config); //'Mashup Exporting via Qlik API'
 		app.getObject('simple_table','arrXTE');		
-		app.visualization.get('arrXTE');
+		app.visualization.get('arrXTE').then(function(vis){vis.show("QV01");} );	
 		app.getObject('bar_chart','MXAQHeM');
 		app.getObject('pie_chart','hVKPhn');
 		// app.getObject('vizlib_container','ftTsz');
