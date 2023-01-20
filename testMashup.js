@@ -56,5 +56,4 @@ require( ["js/qlik"], function ( qlik ) {
 	app.visualization.get('hBstX').then(function(vis){
     vis.show("QV01");	
 	} );
-    
-} );});
+ } );});
