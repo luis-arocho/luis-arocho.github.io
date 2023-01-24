@@ -57,4 +57,8 @@ require( ["js/qlik"], function ( qlik ) {
     vis.show("QV01");	
 	} );
     
+    //get objects -- inserted here --
+	app.visualization.get('KgjnT').then(function(vis){
+    vis.show("QV02");	
+	} );	
 } );});
