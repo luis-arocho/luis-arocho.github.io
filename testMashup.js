@@ -61,4 +61,6 @@ require( ["js/qlik"], function ( qlik ) {
 	app.visualization.get('YbwXW').then(function(vis){
     vis.show("QV02");	
 	} );	
+	<iframe src="https://support.us.qlikcloudgov.com/single/?appid=bc1ca4ce-4e73-4190-a0a6-827ba3197960&obj=XPjvEL&theme=horizon&opt=ctxmenu,currsel" style="border:none;width:100%;height:100%;"></iframe>
+	
 } );});
