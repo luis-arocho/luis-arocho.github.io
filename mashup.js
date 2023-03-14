@@ -11,7 +11,7 @@ var config = {
 	//prefix: prefix,	
 	//port: window.location.port,	
 	//isSecure: window.location.protocol === "https:"	
-	host: 'qlikviz.epa.gov',
+	host: 'e7ixql68q51ilev.us.qlikcloud.com',
 	prefix: '/',
 	port: 443,
 	isSecure: true
@@ -25,9 +25,9 @@ var config = {
 	require( ["js/qlik"], function ( qlik ) {
 		
 		
-		var app = qlik.openApp('abc53df2-5891-4a11-adb1-b76b97117af5', config); 
-		app.getObject('vizlib_container','EFeqkz');		
-		app.getObject('vizlib_table_one','jXjggH');		
+		var app = qlik.openApp('831d3888-5b6f-4232-9e9e-7c1903a543ce', config); 
+		app.getObject('vizlib_container','KEhtSWR');		
+		app.getObject('vizlib_table_one','d683496a-6041-403a-9b9d-4747b8a681bb');		
 
 		//app.visualization.get('jXjggH').then(function(vis){ vis.show('vizlib_table_one'); });
 				
