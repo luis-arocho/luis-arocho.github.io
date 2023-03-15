@@ -1,9 +1,9 @@
 	
 	//    CONFIGURATION 
 
-	const TENANT = 'koa48q35agc9ri4.us.qlikcloudgov.com'; 
-	const APPID = '5908ef1b-fc38-4d81-bbbf-c46a7b1237db'; // *** CHANGE AS NEEDED THEN PROCEED TO LINE 75 FOR MASHUP OBJECT CONFIG ***
-	const WEBINTEGRATIONID = 'Mm96Y7FJbRgW9f50grpGEXJGV0YITgEP';	
+	const TENANT = 'e7ixql68q51ilev.us.qlikcloud.com'; 
+	const APPID = '831d3888-5b6f-4232-9e9e-7c1903a543ce'; // *** CHANGE AS NEEDED THEN PROCEED TO LINE 75 FOR MASHUP OBJECT CONFIG ***
+	const WEBINTEGRATIONID = 'xV3eqA-sz5oEoQbji7YJw1JCQ0nzqvLj';	
 		
 	//    MAIN 
 
