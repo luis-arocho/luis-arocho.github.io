@@ -1,9 +1,9 @@
 	
 	//    CONFIGURATION 
 
-	const TENANT = 'epa.us.qlikcloudgov.com'; 
-	const APPID = 'e09ab78e-0785-4917-90f2-be1cf20f9b45'; // *** CHANGE AS NEEDED THEN PROCEED TO LINE 75 FOR MASHUP OBJECT CONFIG ***
-	const WEBINTEGRATIONID = 'ijZGi_IW19b-dNXk1Kh9XAhp9260ejnJ';	
+	const TENANT = 'support.us.qlikcloudgov.com'; 
+	const APPID = '5908ef1b-fc38-4d81-bbbf-c46a7b1237db'; // *** CHANGE AS NEEDED THEN PROCEED TO LINE 75 FOR MASHUP OBJECT CONFIG ***
+	const WEBINTEGRATIONID = 'Mm96Y7FJbRgW9f50grpGEXJGV0YITgEP';	
 		
 	//    MAIN 
 
@@ -72,7 +72,7 @@
 			const app = qlik.openApp(appId, config);
 			
 			app.getObject('CurrentSelections','CurrentSelections');
-			app.getObject('sof_container','jsHgXMJ');		
+			app.getObject('sof_container','fFqQuT');		
 			//app.getObject('bar_chart','MXAQHeM');
 				
 			
